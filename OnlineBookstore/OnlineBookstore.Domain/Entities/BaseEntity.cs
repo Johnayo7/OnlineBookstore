@@ -10,5 +10,6 @@ namespace OnlineBookstore.Domain.Entities
     {
         public int Id { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
     }
 }
