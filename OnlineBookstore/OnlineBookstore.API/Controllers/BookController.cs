@@ -91,7 +91,7 @@ namespace OnlineBookstore.API.Controllers
         {
             try
             {
-                if (ModelState.IsValid || id < 1)
+                if (!ModelState.IsValid || id < 1)
                 {
                     return BadRequest(ApiResponse<object>.Response(false, "Invalid input, try again", null));
                 }
