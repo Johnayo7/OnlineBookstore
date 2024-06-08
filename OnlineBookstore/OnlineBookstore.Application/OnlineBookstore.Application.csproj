@@ -10,9 +10,4 @@
     <ProjectReference Include="..\OnlineBookstore.Domain\OnlineBookstore.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="IServices\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>

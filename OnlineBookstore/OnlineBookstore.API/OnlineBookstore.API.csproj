@@ -22,8 +22,4 @@
     <ProjectReference Include="..\OnlineBookstore.Infrastructure\OnlineBookstore.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DTOs\" />
-  </ItemGroup>
-
 </Project>
