@@ -52,6 +52,7 @@ Unit tests are written using the xUnit framework and Moq library. Tests cover va
 
 **High-Level Design**
 The following diagram provides a high-level overview of the system architecture:
+
 OnlineBookstore
 │
 ├── OnlineBookstore.API
