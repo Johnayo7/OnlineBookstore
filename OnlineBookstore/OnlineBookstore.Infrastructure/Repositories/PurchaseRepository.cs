@@ -31,6 +31,10 @@ namespace OnlineBookstore.Infrastructure.Repositories
                 return false;
             }
 
+            var pmth = PaymentMethod.USSD;
+
+            Console.WriteLine(pmth.ToString());
+
             var purchaseHistory = new PurchaseHistory
             {
                 DateCreated = DateTime.UtcNow,           
